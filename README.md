@@ -1,11 +1,11 @@
-# Email Framework
+# 💌 Email Framework 💌
 
 The HTML Email Framework developed to help you build responsive HTML email templates.
 
 ### Getting Started
-based on g13nn's [Email-Framework](https://github.com/g13nn/Email-Framework "Title") with some updates and functionality for Outllok 
+Documentation coming soon
 
-* [Download](https://github.com/g13nn/Email-Framework/archive/master.zip "Title")
+* [Download](https://github.com/brooklee1/Email-Framework/archive/master.zip "Title")
 
 ### Support
 
