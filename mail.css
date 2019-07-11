@@ -1,0 +1,148 @@
+/* CLIENT-SPECIFIC STYLES */
+body,
+table,
+td,
+a {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+table,
+td {
+  mso-table-lspace: 0pt;
+  mso-table-rspace: 0pt;
+}
+
+img {
+  -ms-interpolation-mode: bicubic;
+}
+
+/* RESET STYLES */
+img {
+  border: 0;
+  outline: none;
+  text-decoration: none;
+}
+
+table {
+  border-collapse: collapse !important;
+}
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+}
+
+/* iOS BLUE LINKS */
+a[x-apple-data-detectors] {
+  color: inherit !important;
+  text-decoration: none !important;
+  font-size: inherit !important;
+  font-family: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+}
+
+/* ANDROID CENTER FIX */
+div[style*="margin: 16px 0;"] {
+  margin: 0 !important;
+}
+
+/* MEDIA QUERIES */
+
+/*##############################################*/
+/*SCREENS Smaller than 639px*/
+/*##############################################*/
+@media all and (max-width:639px) {
+
+  .wrapper {
+    width: 100% !important;
+    padding: 0 !important;
+  }
+
+  .container {
+    width: 270px !important;
+    padding: 0 !important;
+  }
+
+  .mobile {
+    width: 270px !important;
+    display: block !important;
+    padding: 0 !important;
+  }
+
+  .img {
+    width: 100% !important;
+    height: auto !important;
+  }
+.c{
+  margin:auto !important;
+}
+
+  /* Added*/
+  table[class=devicewidth] {
+    width: 100% !important;
+  }
+
+  table[class=devicewidthinner] {
+    width: 90% !important;
+  }
+
+  img[class="hero"] {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .mobileCenter {
+    text-align: center !important;
+  }
+/*Added*/
+/* .mobileCenterImg {
+  display: inline !important;
+
+} */
+
+  .mobileButton {
+    width: 100%;
+  }
+
+  *[class="mobileOff"] {
+    width: 0px !important;
+    display: none !important;
+  }
+
+  *[class*="mobileOn"] {
+    display: block !important;
+    max-height: none !important;
+  }
+}
+
+/*##############################################*/
+/*IPHONE 6 and Screen sizes larger STYLES*/
+/*##############################################*/
+/* Hack to Fix Outlook Mobie */
+@media screen and (max-width: 414px) {
+  table[class=devicewidth] {
+    width: 100% !important;
+  }
+
+  table[class=devicewidthinner] {
+    width: 90% !important;
+  }
+}
+
+/*##############################################*/
+/*IPHONE 5(and below) STYLES*/
+/*##############################################*/
+/* Hack to Fix Outlook Mobie */
+@media only screen and (max-width: 319px) {
+  table[class=devicewidth] {
+    width: 100% !important;
+    text-align: left !important;
+  }
+
+  table[class=devicewidthinner] {
+    width: 300px !important;
+  }
+}
